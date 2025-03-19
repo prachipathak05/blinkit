@@ -1,0 +1,255 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+header{
+    display: flex;
+    max-width:100%;
+    align-items: center;
+    gap:30px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.headleft{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding:10px 20px;
+    border-right: 1px solid #ccc;
+    
+}
+.address{
+    padding:10px 20px;
+}
+.address p{
+font-size: 15px;
+}
+.searchbox{
+    flex-grow: 1;
+    display: flex;
+    border-radius: 5px;
+    background-color:rgba(245, 253, 252, 0.932);
+    border:1px solid rgb(201, 188, 188);
+}
+.searchbox button{
+    padding:10px;
+    background-color:transparent;
+    border: none;
+}
+.searchbox input{
+    padding:10px;
+    flex-grow:1;
+    border:none;
+    background-color:transparent;
+}
+.searchbox input:focus{
+    outline:none;
+}
+.headright{
+    display:flex;
+    gap:20px;
+    margin-right: 40px;
+}
+.headright button{
+border:none;
+background-color: transparent;
+padding:5px;
+}
+.headright button:last-child{
+    background-color:rgb(75, 75, 233);
+    color:white;
+border-radius: 5px;
+}
+.bannersection{
+    margin: 0px auto;
+    max-width: 1280px;
+}
+.bannersection img{
+    width:100%;
+}
+.bannerimg{
+    display:flex;
+    max-width: 1280px;
+    margin:auto;
+}
+.bannerimg img{
+    width:100%;
+}
+.banneritems{
+margin:1%;
+flex-basis:25%;
+}
+.categorysec{
+    max-width: 1280px;
+    display:flex;
+    margin:auto;
+    flex-wrap:wrap;
+}
+.categoryitems{
+    flex-basis:10%;
+}
+.categoryitems img{
+width:100%;
+}
+.productsec{
+    max-width:1280px;
+    margin:auto;
+    padding:0px 10px;
+}
+.producthead{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+.producthead h3{
+    font-size:20px;
+}
+.producthead a{
+    color:green;
+}
+.productrow{
+margin-top:20px;
+margin-bottom:20px;
+    width:100%;
+    gap:2%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.productitems{
+    padding:0px 10px;
+    flex-basis: 15%;
+    border:1px solid #ccc;
+    box-shadow: 0px 0px 10px rgb(194, 189, 189);
+    border-radius: 10px;
+}
+.productimg{
+    text-align:center;
+    padding:5px 0px;
+}
+.productimg a{
+    display:block;
+    text-align: left;
+}
+.productcontent{
+    padding:5px 0px;
+    
+}
+.productcontent h3{
+    font-size:14px;
+    margin-bottom:5px;
+}
+.productcontent p{
+    font-size:12px;
+    color:grey;
+}
+.productbottom{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 0px;
+    font-size: 12px;
+}
+.productbottom button{
+    padding:5px 10px;
+    color:green;
+    border: 1px solid rgb(72, 219, 72);
+    border-radius: 5px;
+}
+footer{
+    width:100%;
+    padding-top:30px;
+}
+.footermid{
+    max-width:1280px;
+    margin:auto;
+}
+.footerrow1{
+    width:100%;
+    gap:50px;
+    display:flex;
+}
+.footerrow1-left{
+    flex-basis:30%;
+    flex-wrap:wrap;
+    padding-left:10px;
+}
+.usefullinks{
+    margin-top:20px;
+    display:flex;
+}
+.usefullinks ul{
+    flex-basis: 33%;
+}
+.footerrow1-left ul li{
+    padding:8px 0px;
+    list-style-type: none;
+    font-size: 14px;
+    color:rgb(148, 144, 144);
+}
+.footerrow1-right{
+flex-basis:70%;
+}
+.footerrow1head{
+    display:flex;
+    padding-bottom:20px;
+    gap:30px;
+}
+.footerrow1head a{
+    color:green;
+}
+.usefullinks2{
+    display:flex;
+    padding-top:15px;
+}
+.usefullinks2 ul{
+    flex-basis:33%;
+    font-size:14px;
+}
+.usefullinks2 ul li{
+    list-style: none;
+    padding:8px 0px;
+    color:rgb(148, 144, 144);
+}
+.footerrow2{
+    width:100%;
+    padding:20px 5px;
+    margin:20px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:14px;
+    color:rgb(148, 144, 144);
+}
+.part1{
+    flex-basis:40%;
+}
+.part2{
+    flex-basis:30%;
+    display:flex;
+    gap:10px;
+}
+.part3 i{
+    height:40px;
+    width:40px;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50px;
+    
+}
+.part3{
+    flex-basis:30%;
+    display:flex;
+    gap:10px;
+    margin-left: 30px;
+}
+.footerrow3{
+    padding:10px 10px;
+    color:rgb(148, 144, 144);
+    font-size:14px;
+}

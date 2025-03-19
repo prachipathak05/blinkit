@@ -1,0 +1,121 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    
+    header{
+        flex-direction: column;
+        align-items:stretch;
+        gap:10px;
+        padding:5px;
+    }
+    .headleft{
+        justify-content: center;
+        gap:20px;
+         }
+    .logo{
+        padding:10px 0px;
+        border-right:none;
+    }
+    .address{
+        padding:10px 0px;
+    }
+     .address p{
+        font-size: 12px;
+    }
+    .address h5{
+        font-size:14px;
+    }
+    .headright{
+        bottom:0px;
+        position:fixed;
+        background-color: white;
+        justify-content: center;
+        width:100%;
+    }
+    .searchbox button{
+    padding:5px;
+    }
+    .bannersection{
+        display:none;
+    }
+    .bannerimg{
+        flex-direction: column;
+        padding:7px;
+    }
+    .categoryitems{
+        flex-basis:25%;
+    }
+    .productsec{
+        padding:0px 10px;
+    }
+    .productitems{
+        flex-basis: 49%;
+    }
+    .footerrow1{
+        flex-direction: column;
+        padding:0px 5px;
+    }
+    
+    .footerrow1-right{
+    padding-bottom:15px;
+    }
+    .footerrow2{
+        flex-direction: column;
+        gap:10px;
+    }
+    .part3{
+        margin:auto;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+    header{
+        gap:6px;
+    }
+    .logo{
+        padding:10px 5px;
+    }
+    .address{
+        padding:10px 0px;
+        margin-left:7px;
+    }
+    .address h3{
+        font-size:12px;
+    }
+    .address p{
+    font-size:10px;
+    }
+    .searchbox button{
+        padding:5px;
+    }
+    .headright{
+        margin-right:5px;
+    }
+    .banneritems{
+        flex-basis:32%;
+    }
+    .categoryitems{
+        flex-basis:20%;
+    }
+    .categoryitems img{
+        width:80%;
+    }
+    .productsec{
+        margin:auto;
+    }
+    .productitems{
+        flex-basis:32%;
+    }
+    .productimg img{
+        width:60%;
+    }
+    .footerrow2{
+        gap:5px;
+        padding:0px 5px;
+    }
+    .part2{
+        gap:5px;
+    }
+    .part3{
+        margin-left:0px;
+        gap:5px;
+    }
+
+}
